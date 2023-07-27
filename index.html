@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- style css -->
     <style>
         .font-lato{
             font-family: 'Lato', sans-serif;
@@ -25,7 +26,7 @@
     <header class="max-w-screen-xl mx-auto">
       <!-- Nav section -->
         <nav class="bg-[#F85559] rounded-full mt-9">
-            <div class="navbar flex justify-between">
+            <div class="navbar flex md:justify-between">
                 <div class="navbar-start hidden lg:flex text-black lg:text-white">
                     <ul class="menu menu-horizontal px-1">
                       <li><a>Home</a></li>
@@ -34,12 +35,12 @@
                       <li><a>All fruits</a></li>
                     </ul>
                   </div>
-                <div class="navbar-center">
-                  <div class="dropdown">
+                <div class="navbar-center flex flex-row-reverse md:flex-row">
+                  <div class="dropdown ml-32 md:ml-0">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-42">
                         <li><a>Home</a></li>
                         <li><a>About us</a></li>
                         <li><a>Shop</a></li>
@@ -384,7 +385,7 @@
 
         <!-- Meet the team Section -->
         <section class="mt-24">
-          <div class="bg-opacity-60 bg-no-repeat bg-cover" style="background-image: url('./images/banner1.png');
+          <div class="bg-opacity-60 bg-no-repeat bg-cover py-10" style="background-image: url('./images/banner1.png');
         ">
             <div class="bg-opacity-80"></div>
             <div class="text-center text-neutral-50 flex justify-center items-center">
@@ -393,7 +394,7 @@
                 <p class="mb-5">Contrary to popular belief, is not simply random text. It has <br> roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                <div class="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <div class="flex justify-center sm:justify-start">
-                  <div class="card w-64 bg-transparent shadow-xl">
+                  <div class="card w-64 bg-transparent">
                     <figure class="px-10 pt-10">
                       <img src="./images/member1.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -409,7 +410,7 @@
                   </div>
                 </div>
                 <div class="flex justify-center sm:justify-start">
-                  <div class="card w-64 bg-transparent shadow-xl mt-12">
+                  <div class="card w-64 bg-transparent mt-12">
                     <figure class="p-2">
                       <img src="./images/member2.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -425,7 +426,7 @@
                   </div>
                 </div>
                 <div class="flex justify-center sm:justify-start">
-                  <div class="card w-64 bg-transparent shadow-xl">
+                  <div class="card w-64 bg-transparent">
                     <figure class="px-10 pt-10">
                       <img src="./images/member3.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -441,7 +442,7 @@
                   </div>
                 </div>
                 <div class="flex justify-center sm:justify-start">
-                  <div class="card w-64 bg-transparent shadow-xl mt-2">
+                  <div class="card w-64 bg-transparent mt-2">
                     <figure class="px-10 pt-10">
                       <img src="./images/member4.png" alt="Shoes" class="rounded-xl" />
                     </figure>
